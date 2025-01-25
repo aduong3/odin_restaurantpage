@@ -1,9 +1,10 @@
 import izakayaBackground from "../assets/images/izakaya.jpg";
-import "./homepage.styles.css";
-export function homePage() {
+import "../styles/homepage.styles.css";
+export default function homePage() {
   //console.log("testing homePage");
 
   const content = document.querySelector("#content");
+  content.textContent = "";
   const heroDiv = document.createElement("div");
 
   const heroText = document.createElement("h1");
