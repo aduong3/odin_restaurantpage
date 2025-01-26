@@ -20,4 +20,8 @@ export default function homePage() {
   heroDiv.appendChild(heroText);
   heroDiv.appendChild(heroTranslate);
   content.appendChild(heroDiv);
-}
+
+
+
+};
+
