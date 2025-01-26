@@ -12,3 +12,39 @@
   align-items: center;
   text-shadow: 3px 3px 10px rgba(255, 14, 14, 0.938);
 }
+
+.socialMediaDiv {
+  display: grid;
+  width: 100%;
+  height: 10%;
+  align-self: end;
+  padding: 0 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.instagramDiv,
+.xDiv {
+  width: 33%;
+  fill: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-self: center;
+}
+
+.instagramSVG,
+.instagram,
+.xSVG,
+.x {
+  cursor: pointer;
+}
+
+.instagramSVG,
+.xSVG {
+  width: 20%;
+}
+
+.instagram,
+.x {
+  font-size: 1.6rem;
+}

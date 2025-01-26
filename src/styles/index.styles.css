@@ -35,6 +35,10 @@ header button {
   cursor: pointer;
 }
 
+header button:hover {
+  transform: scale(1.15);
+}
+
 header ul li {
   justify-self: center;
 }

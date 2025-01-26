@@ -26,6 +26,7 @@ export default function menu() {
   yakitoriPrice.textContent = "$6.50";
 
   yakitori.src = yakitoriPNG;
+  yakitori.alt = "yakitori";
 
   yakitori.classList.add("yakitori");
   yakitoriTitle.classList.add("yakitoriTitle");
@@ -51,6 +52,7 @@ export default function menu() {
   karaagePrice.textContent = "$4.50";
 
   karaage.src = karaagePNG;
+  karaage.alt = "karaage";
 
   karaage.classList.add("karaage");
   karaageTitle.classList.add("karaageTitle");
@@ -77,6 +79,7 @@ export default function menu() {
   takoyakiPrice.textContent = "$7.50";
 
   takoyaki.src = takoyakiPNG;
+  takoyaki.alt = "takoyaki";
 
   takoyaki.classList.add("takoyaki");
   takoyakiTitle.classList.add("takoyakiTitle");
@@ -103,6 +106,7 @@ export default function menu() {
   sapporoPrice.textContent = "$5.50";
 
   sapporo.src = sapporoPNG;
+  sapporo.alt = "sapporo beer";
 
   sapporo.classList.add("sapporo");
   sapporoTitle.classList.add("sapporoTitle");
@@ -129,6 +133,7 @@ export default function menu() {
   sakePrice.textContent = "$11.00";
 
   sake.src = sakePNG;
+  sake.alt = "rihaku sake";
 
   sake.classList.add("sake");
   sakeTitle.classList.add("sakeTitle");
@@ -155,6 +160,7 @@ export default function menu() {
   mochiPrice.textContent = "$5.00";
 
   mochi.src = mochiPNG;
+  mochi.alt = "mochi ice cream";
 
   mochi.classList.add("mochi");
   mochiTitle.classList.add("mochiTitle");
