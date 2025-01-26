@@ -31,3 +31,26 @@
     font-size: 1.3rem;
     align-self: start;
 }
+
+@media (max-width: 1000px){
+    .aboutStoreQuestion, .openHoursTitle{
+        font-size: 2rem;
+    }
+
+    .aboutStore, .openHoursTimeDiv{
+        width: 50ch;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 660px){
+    .aboutStoreQuestion, .openHoursTitle{
+        font-size: 1.7rem;
+    }
+
+    .aboutStore, .openHoursTimeDiv{
+        width: 45ch;
+        font-size: 1rem;
+    }
+}

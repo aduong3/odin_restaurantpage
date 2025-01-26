@@ -5,7 +5,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
 }
 
 .yakitoriDiv,
@@ -52,3 +51,88 @@
     transform: scale(0.9);
 }
 
+
+@media (max-width: 1000px){
+
+    .menuDiv{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fit,minmax(200px, 1fr));
+    }
+
+    .yakitoriDiv,
+    .karaageDiv,
+    .takoyakiDiv,
+    .sapporoDiv,
+    .sakeDiv,
+    .mochiDiv{
+
+        font-size: 1rem;
+    }
+
+    .yakitori{
+        transform: scale(0.9);
+    }
+    
+    .karaage{
+        transform: scale(1.2);
+    }
+    
+    .takoyaki{
+        transform: scale(0.6);
+    }
+    
+    .sapporo{
+        transform: scale(0.9);
+    }
+
+    .sake{
+        transform: scale(0.8);
+    }
+    
+    .mochi{
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 850px){
+
+    .yakitoriDiv,
+    .karaageDiv,
+    .takoyakiDiv,
+    .sapporoDiv,
+    .sakeDiv,
+    .mochiDiv{
+        font-size: 1rem;
+    }
+    
+    .yakitori{
+        transform: scale(0.8);
+    }
+    
+    .karaage{
+        transform: scale(1);
+    }
+    
+    .takoyaki{
+        transform: scale(0.5);
+    }
+    
+    .sapporo{
+        transform: scale(0.8);
+    }
+
+    .sake{
+        transform: scale(0.7);
+    }
+    
+    .mochi{
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 660px){
+    .menuDiv{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit,minmax(200px, 1fr));
+    }
+}
