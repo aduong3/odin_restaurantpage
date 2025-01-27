@@ -35,7 +35,7 @@ export default function about() {
 
   const openHoursTitle = document.createElement("h1");
   openHoursTitle.classList.add("openHoursTitle");
-  openHoursTitle.textContent = "Open Times";
+  openHoursTitle.textContent = "Hours of Operation";
 
   const openHoursTimeDiv = document.createElement("div");
   openHoursTimeDiv.classList.add("openHoursTimeDiv");
