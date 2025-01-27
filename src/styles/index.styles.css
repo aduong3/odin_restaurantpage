@@ -26,9 +26,7 @@ header {
   align-items: center;
   grid-template-columns: 1fr 4fr;
   padding: 8px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+
 }
 
 header ul {

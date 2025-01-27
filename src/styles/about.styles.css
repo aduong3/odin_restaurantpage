@@ -1,78 +1,81 @@
-.aboutDiv{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.705);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-rows: 2fr 1fr;
-
+.aboutDiv {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.705);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 2fr 1fr;
 }
 
-.aboutStore, .openHoursTimeDiv{
-    width: 70ch;
-    text-align: center;
-    border: 1px solid white;
-    padding: 18px;
+.aboutStore,
+.openHoursTimeDiv {
+  width: 70ch;
+  text-align: center;
+  border: 1px solid white;
+  padding: 18px;
 }
 
-.aboutStoreQuestion, .openHoursTitle{
-    font-size: 2.5rem;
+.aboutStoreQuestion,
+.openHoursTitle {
+  font-size: 2.5rem;
 }
 
-.aboutStoreDiv, .openHoursDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
+.aboutStoreDiv,
+.openHoursDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
 
-.openHoursDiv{
-    font-size: 1.3rem;
-    align-self: start;
+.openHoursDiv {
+  font-size: 1.3rem;
+  align-self: start;
 }
 
-@media (max-width: 1000px){
-    .aboutStoreQuestion, .openHoursTitle{
-        font-size: 2rem;
-    }
+@media (max-width: 1000px) {
+  .aboutStoreQuestion,
+  .openHoursTitle {
+    font-size: 2rem;
+  }
 
-    .aboutStore, .openHoursTimeDiv{
-        width: 50ch;
-        font-size: 1.2rem;
-    }
-
+  .aboutStore,
+  .openHoursTimeDiv {
+    width: 50ch;
+    font-size: 1.2rem;
+  }
 }
 
-@media (max-width: 660px){
-    .aboutStoreQuestion, .openHoursTitle{
-        font-size: 1.7rem;
-    }
+@media (max-width: 660px) {
+  .aboutStoreQuestion,
+  .openHoursTitle {
+    font-size: 1.7rem;
+  }
 
-    .aboutStore, .openHoursTimeDiv{
-        width: 45ch;
-        font-size: 1rem;
-    }
+  .aboutStore,
+  .openHoursTimeDiv {
+    width: 45ch;
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 520px){
-    .aboutStoreQuestion, .openHoursTitle{
-        font-size: 1.4rem;
-    }
+@media (max-width: 520px) {
+  .aboutStoreQuestion,
+  .openHoursTitle {
+    font-size: 1.4rem;
+  }
 
-    .aboutStore, .openHoursTimeDiv{
-        width: 40ch;
-        font-size: 0.9rem;
-    }
+  .aboutStore,
+  .openHoursTimeDiv {
+    width: 40ch;
+    font-size: 0.9rem;
+  }
 }
 
-@media (max-width: 430px){
-    .aboutStoreQuestion, .openHoursTitle{
-        font-size: 1.5rem;
-    }
-
-    .aboutStore, .openHoursTimeDiv{
-        width: 38ch;
-        font-size: 1rem;
-    }
+@media (max-width: 430px) {
+  .aboutStoreQuestion,
+  .openHoursTitle {
+    font-size: 1.5rem;
+  }
 }
