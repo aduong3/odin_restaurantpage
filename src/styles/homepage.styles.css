@@ -18,6 +18,7 @@
   align-self: end;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .instagramDiv,
