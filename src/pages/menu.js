@@ -7,6 +7,11 @@ import sakePNG from "../assets/images/sake.png";
 import mochiPNG from "../assets/images/mochi.png";
 
 export default function menu() {
+  const body = document.querySelector("body");
+  const html = document.querySelector("html");
+  body.style.height = "auto";
+  html.style.html = "auto";
+
   const content = document.querySelector("#content");
   content.textContent = "";
 

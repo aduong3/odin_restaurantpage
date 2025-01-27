@@ -2,6 +2,10 @@ import izakayaBackground from "../assets/images/izakaya.jpg";
 import "../styles/homepage.styles.css";
 export default function homePage() {
   //console.log("testing homePage");
+  const body = document.querySelector("body");
+  const html = document.querySelector("html");
+  body.style.height = "-webkit-fill-available";
+  html.style.html = "-webkit-fill-available";
 
   const content = document.querySelector("#content");
   content.textContent = "";
@@ -86,4 +90,4 @@ export default function homePage() {
   socialMedia.appendChild(instagramDiv);
   socialMedia.appendChild(xDiv);
   content.appendChild(socialMedia);
-};
+}

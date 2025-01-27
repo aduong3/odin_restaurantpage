@@ -1,6 +1,5 @@
 .menuDiv{
     width: 100%;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.705);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,6 +51,7 @@
 }
 
 
+
 @media (max-width: 1000px){
 
     .menuDiv{
@@ -74,11 +74,11 @@
     }
     
     .karaage{
-        transform: scale(1.2);
+        transform: scale(1);
     }
     
     .takoyaki{
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
     
     .sapporo{
@@ -90,7 +90,7 @@
     }
     
     .mochi{
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
 }
 
@@ -105,29 +105,6 @@
         font-size: 1rem;
     }
     
-    .yakitori{
-        transform: scale(0.8);
-    }
-    
-    .karaage{
-        transform: scale(1);
-    }
-    
-    .takoyaki{
-        transform: scale(0.5);
-    }
-    
-    .sapporo{
-        transform: scale(0.8);
-    }
-
-    .sake{
-        transform: scale(0.7);
-    }
-    
-    .mochi{
-        transform: scale(0.5);
-    }
 }
 
 @media (max-width: 660px){
