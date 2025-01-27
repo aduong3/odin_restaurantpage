@@ -120,7 +120,6 @@ header ul li {
   }
 
   body {
-
     grid-template-rows: 0.6fr 7fr;
   }
 
@@ -135,3 +134,16 @@ header ul li {
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 490px){
+  body {
+    grid-template-rows: 0.6fr 4fr;
+  }
+}
+
+@media (max-width: 400px){
+  body {
+    grid-template-rows: 0.6fr 4fr;
+  }
+}
+

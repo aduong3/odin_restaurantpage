@@ -28,7 +28,7 @@
   fill: white;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
 }
 
@@ -49,24 +49,61 @@
   font-size: 1.3rem;
 }
 
-@media (max-width: 1200px){
-
-}
-
-
-@media (max-width: 768px){
-  .heroDiv{
+@media (max-width: 768px) {
+  .heroDiv {
     font-size: 1.2rem;
   }
   .instagramSVG,
   .xSVG {
     width: 30px;
   }
-
+  .instagram,
+  .x {
+    font-size: 1.1rem;
+  }
 }
 
-@media (max-width: 490px){
-  .heroDiv{
+@media (max-width: 490px) {
+  .heroDiv {
     font-size: 1rem;
+  }
+  .instagramDiv,
+.xDiv{
+  gap: 10px;
+}
+}
+
+@media (max-width: 420px) {
+  .heroDiv {
+    font-size: 0.9rem;
+  }
+  .instagramSVG,
+  .xSVG {
+    width: 25px;
+  }
+
+  .instagram,
+  .x {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px){
+  .heroDiv {
+    font-size: 0.8rem;
+  }
+  .instagramSVG,
+  .xSVG {
+    width: 22px;
+  }
+
+  .instagram,
+  .x {
+    font-size: 0.9rem;
+  }
+
+  .instagramDiv,
+  .xDiv{
+    gap: 6px;
   }
 }
